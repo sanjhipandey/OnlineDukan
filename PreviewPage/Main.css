@@ -1,0 +1,99 @@
+.header{
+    width: 100%;
+    height: 10%vh;
+    border-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index:100;
+    background-image: url("Images/headermap.jpg");
+    display: flex;
+    flex-direction: row;
+    
+  
+  }
+  
+  
+  /*Resize the wrap to see the search bar change!*/
+  
+  
+  .heading{
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+    padding-top: 2%;
+    font-size: 500%;
+    font-weight: 600;
+    padding-left: 3%;
+    width: 70%;
+   
+  }
+
+  .edit{
+    width:30% ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  
+
+  .button-42 {
+    margin-right: 2%;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #467A3E, #5b9e50);
+    border-radius: 6px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Trebuchet MS';
+    height: 60px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+    width: 70%;
+  }
+  
+  .button-42:hover {
+    box-shadow: rgba(70, 122, 62, 0.5) 0 3px 8px;
+  }
+
+
+.bottom{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-left{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ec1d25;
+}
+
+.bottom-right{
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #989ab5;
+}
+  
