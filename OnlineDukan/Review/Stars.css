@@ -9,6 +9,8 @@
 }
 
 
+
+
 .inner{
   width: 50%;
   height: 60vh;
@@ -17,6 +19,7 @@
   margin-left: 25%;
   display: flex;
   flex-direction: column;
+ 
 
 }
 
@@ -165,6 +168,7 @@ transform: translateY(-2px);
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 10%;
 }
 .container .post{
   display: none;

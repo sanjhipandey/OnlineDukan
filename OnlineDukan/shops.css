@@ -7,15 +7,21 @@
   position: sticky;
   top: 0;
   z-index:100;
-  background-image: url("Images/headermap.jpg");
+  background-image: url("Images/top2.jpeg");
   display: flex;
   flex-direction: column;
   
 
 }
+
+.header222{
+  background: rgba(0, 0, 0, 0.301);
+    overflow: hidden;
+    height: 30vh;
+}
 .searchTerm {
   width: 100%;
-  border: 1px solid #93c48b;
+  border: 1px solid #C9B925;
   border-right: none;
   padding: 5px;
   height: 5.7vh;
@@ -37,8 +43,8 @@
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #93c48b;
-  background: #93c48b;
+  border: 1px solid #C9B925;
+  background: #C9B925;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -68,6 +74,7 @@ padding-left: 3%
   font-size: 500%;
   font-weight: 600;
   padding-left: 3%;
+  color: white;
  
 }
 
@@ -177,7 +184,7 @@ padding-left: 3%
 .button-42 {
   margin-right: 2%;
   background-color: initial;
-  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  background-image: linear-gradient(-180deg, #26031fe8, #26031F);
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
   color: #FFFFFF;
@@ -273,8 +280,8 @@ padding-left: 3%
 input[type='radio'] {
   box-sizing: border-box;
   appearance: none;
-  background: #93c48b;
-  outline: 1px solid #4f694b;
+  background: #C9B925;
+  outline: 1px solid #39052F;
  
   width: 16px;
   height: 16px;
@@ -336,7 +343,7 @@ input[type='radio']:checked {
 .review-text{
   font-family: 'Trebuchet MS';
   font-weight: bold;
-  color: #4f694b;
+  color: #39052F;
   
   
 
@@ -415,7 +422,7 @@ input[type='radio']:checked {
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
   margin-right: 1%;
-  color: #4f694b;
+  color: #39052F;
 }
 .gg-pen::after,
 .gg-pen::before {
@@ -459,7 +466,7 @@ input[type='radio']:checked {
   vertical-align: baseline;
   width: 50%;
   margin-right: 1%;
-  color: rgb(79, 105, 75);
+  color: #39052F;
   
 }
 
